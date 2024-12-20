@@ -7,4 +7,14 @@ Print out the list element that corresponds to that
 position in the tuple
 """
 
-people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+people=("Red","Green","Blue","Black","White","Cyan","Lime","Brown","Pink","Yellow","Purple","Orange")
+
+for imposter in people:
+    print(people)
+    Skeld = int(input("What number is the imposter:"))
+    Skeld = Skeld - 1
+    print(f"You voted {people[Skeld]}")
+    if people[Skeld] == imposter:
+        print(f"{people[Skeld]} was the imposter")
+    else:
+        print(f"{people[Skeld]} was not the imposter")

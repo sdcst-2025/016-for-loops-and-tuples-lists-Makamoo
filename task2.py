@@ -22,4 +22,11 @@ Enter a name: Lebron
 That name is on the list
 """
 
-nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+Bell = ("Lebron","Kobe","Michael","Shaq","Dennis")
+
+while True:
+    Snow = input("Enter one of the best basketball players first names:")
+    if Snow in Bell:
+        print(f"{Snow} is one of the best")
+    else:
+        print(f"{Snow} is a nobody")
